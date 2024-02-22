@@ -1,0 +1,560 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(pictures/mainPic/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-link {
+    margin-left: 138px;
+}
+
+nav {
+    position: fixed;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.281) 0%,
+            rgba(9, 11, 11, 0.384) 0%,
+            rgba(11, 131, 156, 1) 0%,
+            rgba(13, 12, 37, 0.26) 0%,
+            rgba(0, 0, 0, 0.363) 0%,
+            rgba(18, 16, 16, 0.349) 0%,
+            rgba(17, 17, 17, 1) 0%,
+            rgba(25, 25, 26, 0.432) 46%,
+            rgba(86, 86, 93, 0.356) 93%);
+    display: flex;
+    padding: 0.5% 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ta {
+    width: 90px;
+    padding: 3px;
+    background: transparent;
+}
+
+.ta:hover {
+    padding: 4px;
+    background-color: rgb(5, 5, 255);
+    cursor: pointer;
+}
+
+nav img {
+
+    width: 90px;
+
+}
+
+.nav-link ul a {
+    text-decoration: none;
+}
+
+.nav-link ul li {
+    display: inline-block;
+    padding: 3px 23px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 20px;
+    overflow: hidden;
+    transition: all ease 0.5s;
+}
+
+.l:hover {
+    text-decoration: overline;
+
+}
+
+.div-1 a {
+    padding-top: 100px;
+    text-decoration: none;
+
+}
+
+.text {
+    font-size: xx-large;
+
+}
+
+ .text h1 {
+    position: relative;
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #b4ff04, 0 0 30px #260a8d;
+    letter-spacing: 15px;
+    color: #1d0052;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.7em;
+    margin-top: 16%;
+    text-align: center;
+}
+
+.div-1 {
+    display: flex;
+    padding: 0.2px 15%;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.div-1 li {
+    color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 20px;
+}
+
+.div-1 li:hover {
+    text-decoration-line: underline;
+}
+
+@media(max-width: 700px) {
+    .text {
+        font-size: 30px;
+    }
+
+    /* .nav-link ul li{
+    display: block;
+} */
+    .nav-link {
+        /* position: absolute; */
+        background: rgb(15, 15, 15);
+        height: 100vh;
+        width: 150px;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
+
+    }
+
+    .text {
+        font-size: small;
+    }
+}
+
+/* mission */
+.mission {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 130px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    filter: drop-shadow(0px 0px 6px rgb(255, 255, 255)) ;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.btn {
+    margin-bottom: 80px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 350px;
+    height: 10vh;
+    background-color: rgb(63, 63, 207);
+    transition: all ease 0.2s;
+}
+
+.btn:hover {
+    background-color: rgba(22, 0, 51, 0.815);
+    cursor: pointer;
+
+}
+
+/* news */
+.news {
+    margin-top: 90px;
+    text-align: center;
+    background-color: rgba(216, 213, 213, 0.89);
+}
+
+.nh {
+    padding: 25px;
+}
+
+.mnews {
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.n1 {
+    background-color: white;
+}
+
+h5 {
+    font-size: large;
+}
+
+p {
+    font-size: medium;
+}
+
+.staff {
+    background-image: url(pictures/staff-picks.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 440px;
+}
+
+.staff h5 {
+    color: white;
+    text-align: start;
+    margin-top: 410px;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.n1:hover {
+
+    cursor: pointer;
+}
+
+/* Academics */
+.acd {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.acd p {
+    font-size: 19px;
+}
+
+.acd div {
+    text-align: left;
+    justify-content: space-evenly;
+}
+
+.program {
+    padding-left: 55px;
+    padding-right: 2px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.spe {
+
+    margin-left: 35px;
+}
+
+.program h6 {
+    text-align: left;
+    font-size: large;
+}
+
+.program p {
+    text-align: left;
+}
+
+.opt {
+    margin-top: 0%;
+    font-size: x-large;
+}
+
+
+
+
+
+.acd h2 {
+    margin-top: 100px;
+    font-size: xx-large;
+}
+
+/* picture */
+.img {
+    justify-items: center;
+    background-image: url(pictures/studentImage/bg-img.jpg);
+    background-size: cover;
+    margin-top: 70px;
+}
+
+.blur {
+    backdrop-filter: blur(10px);
+    height: 700px;
+    text-align: center;
+}
+
+.blur img {
+    margin-top: 80px;
+    width: 200px;
+    border-radius: 50%;
+    max-width: 960px;
+    padding: 2rem;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p {
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.p a {
+    color: white;
+    text-decoration-style: none;
+}
+
+/* research */
+
+.about {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.about h6 {
+    font-weight: 1400;
+    font-size: xx-large;
+    margin-top: 0;
+}
+
+/* upcomming event */
+
+.coming {
+    margin-top: 70px;
+
+    background-color: rgba(216, 213, 213, 0.89);
+    text-align: center;
+}
+
+.hh {
+    padding-top: 70px;
+}
+
+.event {
+    margin-top: 60px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+
+}
+
+.event div {
+    width: 240px;
+    background-color: white;
+    padding: 5px
+}
+
+/* health care */
+.health {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.care {
+    margin-left: 60px;
+    text-align: left;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.care h4 {
+    font-size: large;
+    font-weight: 1000;
+}
+
+.care p {
+    font-size: large;
+}
+
+/* campus life */
+.life {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.life h3 {
+    margin-top: 30px;
+}
+
+.campus {
+    margin-top: 70px;
+    display: flex;
+    margin-right: 50px;
+}
+
+.di {
+    padding-left: 65px;
+    text-align: start;
+}
+
+/* athletics */
+.ath {
+    text-align: center;
+    background-color: rgba(216, 213, 213, 0.89);
+}
+
+.at {
+    margin-top: 30px;
+}
+
+.ath h3 {
+    margin-top: 30px;
+}
+
+.champ {
+    margin-right: 60px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cla {
+    text-align: left;
+    padding-left: 50px;
+}
+
+/* admission */
+.adm {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.adm img {
+    margin-top: 60px;
+}
+
+.adm h3 {
+    margin-top: 30px;
+}
+
+.inform {
+    margin-left: 17px;
+    display: flex;
+    text-align: left;
+}
+
+/* icons */
+.icons {
+
+    background-color: rgba(190, 188, 188, 0.37);
+    justify-content: end;
+    display: flex;
+}
+
+.im {
+    padding: 5px;
+    width: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+/* footer */
+.option {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f1 {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.f1 li {
+    list-style: none;
+    padding: 10px;
+}
+
+.f1 li a {
+    color: black;
+    text-decoration: none;
+}
+
+.f1 li a:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+.f1 h5 {
+    color: blue;
+}
+
+.b button {
+    background-color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+.b {
+    padding: 10px;
+}
+
+.b button:hover {
+    border-color: blue;
+    cursor: pointer;
+    color: blue;
+}
+
+.end {
+    background-color: blue;
+    display: flex;
+}
+
+.air {
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: larger;
+}
+
+.term {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.term a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.c {
+    color: white;
+}
+
+.term a:hover {
+    text-decoration: underline;
+}
